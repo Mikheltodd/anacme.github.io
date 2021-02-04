@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: #290103;
+  background-color: #e8e8e8;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #7b030a;
+  font-weight: bold;
+}
+a:link {
+  color: #290103;
+}
+
+a:visited {
+  color: #1d0102;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Acme", sans-serif;
+  margin: 0;
+  padding: 10px;
+  color: #7b030a;
+}
+
+header,
+footer {
+  background-color: rgb(248, 229, 122);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+img {
+  max-height: 200px;
+}
+section {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+.title {
+  flex-direction: row;
+}
+.catalogue {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding-top: 2em;
+  background-image: url("https://i.pinimg.com/736x/2d/90/df/2d90dfcf69b772a9f66b2f2e46aa6420--background-ideas-background-designs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.catalogue .product {
+  margin: auto;
+  background-color: white;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+}
+
+.staff {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.teammate {
+  display: flex;
+  margin: 0px 10px;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-items: auto;
+  justify-content: space-between;
+  padding: 1em;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.contact,
+.copyright {
+  font-family: "Acme", sans-serif;
+  padding-top: 20px;
+  color: #7b030a;
+  line-height: 0.25em;
+}
+
+#About {
+  background-color: #f9f9f9;
+  padding: 1.5em;
+}
+#Products {
+  padding: 1em;
+}
+#Team {
+  background-color: #f9f9f9;
+  padding: 1.5em;
+}
