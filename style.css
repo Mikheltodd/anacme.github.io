@@ -38,7 +38,7 @@ h4 {
 
 header,
 footer {
-  display: flex;
+  box-sizing: content-box;
   background-color: rgb(248, 229, 122);
 }
 
